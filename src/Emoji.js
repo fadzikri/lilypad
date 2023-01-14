@@ -20,25 +20,25 @@ const Emoji = () => {
 
     return (
         <div className="container text-center">
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div className="row row-cols-12">
                 {fetchEmoji.map((em) => (
                     <EmojiElement
                     key={em.id}
-                    name={em.name}
-                    emoji={em.emoji}
-                    unicode={em.unicode}/>
+                    // name={em.name}
+                    emoji={em.emoji} />
+                    // unicode={em.unicode}/>
                 ))}
             </div>
         </div>
     );
 }
 
-const EmojiElement = ({name, emoji, unicode}) => {
+const EmojiElement = ({emoji}) => {//{name, emoji, unicode}) => {
     return (
         <div className="col">
             <p>{emoji}</p>
-            <p>{name}</p>
-            <p>{unicode}</p>
+            {/* <p>{name}</p> */}
+            {/* <p>{unicode}</p> */}
         </div>
     )
 }
