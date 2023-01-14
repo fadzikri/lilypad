@@ -20,7 +20,7 @@ const Emoji = () => {
 
     return (
         <div className="container text-center">
-            <div className="row row-cols-4">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                 {fetchEmoji.map((em) => (
                     <EmojiElement
                     key={em.id}
