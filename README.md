@@ -7,3 +7,7 @@ Tujuan membuat ini untuk memudahkan dalam mengambil emoji, karena terkadang suat
 Dari data Emoji dalam source code repository ini belum lengkap.
 
 Berjalan di : <https://emosi.netlify.app>
+
+---
+
+Archived : 15 January 2023
