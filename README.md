@@ -12,5 +12,6 @@ Berjalan di : <https://fadzikri.github.io/lilypad>
 
 ---
 
-Archived : 15 January 2023
-Update : 20 January 2023
+Archived : 15 January 2023\
+Update : 20 January 2023\
+Archived : 20 January 2023
